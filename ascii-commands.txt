@@ -1,0 +1,7 @@
+The packet ASCII diagrams are created using https://github.com/luismartingarcia/protocol:
+
+Request:
+protocol "Agent ID:16,Request ID:16,Operation Code:32,Number of Args:32,Size of Arg 1:32,...:32,Size of Arg n:32,Arg 1:32,...:32,Arg n:32?\ bits=16,numbers=y,startchar=*,endchar=*,evenchar=-,oddchar=-,sepchar=|"
+
+Response:
+protocol "Agent ID:16,Request ID:16,Status Code:32,Data Count:32,Size of Data 1:32,...:32,Size of Data n:32,Type of Data 1:32,...:32,Type of Data n:32,Data 1:32,...:32,Data n:32?\ bits=16,numbers=y,startchar=*,endchar=*,evenchar=-,oddchar=-,sepchar=|"
